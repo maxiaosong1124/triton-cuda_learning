@@ -2,6 +2,7 @@ import torch
 import triton
 import triton.language as tl
 
+#以二维矩阵的角度进行矩阵的计算
 @triton.jit
 def matmul_kernel(
 x_ptr, #输入矩阵的首元素指针 
