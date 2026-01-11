@@ -557,8 +557,12 @@ ncu --set full -o profile python your_script.py
 # 查看关键指标
 ncu --metrics l2_cache_hit_rate,sm_efficiency,dram_throughput python your_script.py
 ```
+# 使用可视化界面对报告进行分析
+ncu-ui profile.ncu-rep
+```
 
 ---
+
 
 ## 8. 参考文献
 
